@@ -2,9 +2,9 @@
 
 This is a server written in Python to transfer files from one UNIX/Linux machine to another.  
 
-I wrote this partly because I had to transfer files between two machines at work that did not have FTP or SCP ports open, but mainly because I wanted to have some fun and create a quick hack.
+I built this partly because I had to auto-transfer files between two machines at work, but mainly because I wanted to have some fun and create a quick hack. So, I tried to do both.
 
-The server is meant as a file transfer utility between machines that do not have FTP/SCP ports opened. It only allows transfer of files through POST and does not support GET requests.
+The server is meant as a file transfer utility between machines that do not have FTP/SCP services running. It only allows transfer of files through POST and does not support GET requests.
 Additionally, it also allows changing the owner and group of the file on the server. I added this feature to allow my colleagues to transfer files across the machines and preserve their ownership over it.
 
 ##### Usage
